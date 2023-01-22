@@ -5,7 +5,7 @@ class Circle:
     def get_area(self):
         return 3.14 * self.radius ** 2
     def perimetr(self):
-        return 2 * 3.14 * self.radius
+        return self.radius * 2 * 3.14
 
 
 Circle = Circle(10)
